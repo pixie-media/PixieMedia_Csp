@@ -4,3 +4,8 @@ This module is intended as a temporary work around for when you want to use Mage
 Installing this module, iframes are allowed from any domain on the checkout.  This should strictly be considered a temporary work around as it clearly opens another potential security risk.
 
 Module is provided for use at your own risk. 
+
+Happy coding.
+
+Pixie Media 
+https://www.pixiemedia.co.uk
