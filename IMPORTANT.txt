@@ -1,0 +1,3 @@
+Cant set to enforced with config.xml?  Do it in the DB directly;
+
+INSERT INTO core_config_data (scope,scope_id,path,value) VALUES ('default',0,'csp/mode/admin/report_only',0),('default',0,'csp/mode/storefront/report_only',0)

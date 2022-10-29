@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+		
+		<policy id="default-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+        <policy id="script-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+		<policy id="style-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+		
+		<policy id="font-src">
+		<values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+		</policy>
+        <policy id="connect-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+		<policy id="img-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+		<policy id="form-action">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+		<policy id="frame-src">
+            <values>
+                <value id="csp_a" type="host">chimpstatic.com</value>
+                <value id="csp_b" type="host">stats.g.doubleclick.net</value>
+				<value id="csp_c" type="host">google.co.uk</value>
+				<value id="csp_d" type="host">www.google.co.uk</value>
+				<value id="csp_e" type="host">www.google.com</value>
+				<value id="csp_f" type="host">www.facebook.com</value>
+				<value id="csp_g" type="host">colou11126.pcapredict.com</value>
+				<value id="csp_h" type="host">services.postcodeanywhere.co.uk</value>
+				<value id="csp_i" type="host">v2.zopim.com</value>
+				<value id="csp_j" type="host">www.rsa3dsauth.co.uk</value>
+				<value id="csp_k" type="host">static.zdassets.com</value>
+				<value id="csp_l" type="host">ekr.zdassets.com</value>
+				<value id="csp_m" type="host">widget-mediator.zopim.com</value>
+				<value id="csp_n" type="host">wss://widget-mediator.zopim.com</value>
+				<value id="threeds_aa" type="host">secure5.arcot.com</value>
+				<value id="threeds_a" type="host">3ds-secure.cardcomplete.com</value>
+				<value id="threeds_b" type="host">ecclients.btrl.ro</value>
+				<value id="threeds_c" type="host">bofp.erstebank.hu</value>
+				<value id="threeds_d" type="host">www.clicksafe.lloydstsb.com</value>
+				<value id="threeds_e" type="host">pay.activa-card.com</value>
+				<value id="threeds_f" type="host">3dsecure-1.wirecard.com</value>
+				<value id="threeds_g" type="host">3dsecure-2.wirecard.com</value>
+				<value id="threeds_h" type="host">acssv.otpbank.hu</value>
+				<value id="threeds_i" type="host">acs.sia.eu</value>
+				<value id="threeds_j" type="host">idcheck.acs.touchtechpayments.com</value>
+				<value id="threeds_k" type="host">sicher-bezahlen.sparkasse.at</value>
+				<value id="threeds_l" type="host">www.securesuite.co.uk</value>
+				<value id="threeds_m" type="host">bred.wlp-acs.com</value>
+				<value id="threeds_n" type="host">bnpp-3ds.wlp-acs.com</value>
+				<value id="threeds_o" type="host">verify.monzo.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
